@@ -38,6 +38,8 @@ def plot_2d(x_coords, y_coords, synchronized_data, num_points):
 
 
 def plot_3d(x_coords, y_coords, synchronized_data, num_points):
+    #print(x_coords,y_coords,synchronized_data)
+
     if not synchronized_data:
         print("No synchronized data to plot.")
         return None
@@ -58,7 +60,7 @@ def plot_3d(x_coords, y_coords, synchronized_data, num_points):
         x=x_coords[indices],
         y=y_coords[indices],
         z=[0] * len(x_coords[indices]),
-        mode='lines+markers',
+        mode='lines',
         name='G-Code Path',
         marker=dict(size=4, symbol='circle')
     ))
@@ -68,7 +70,7 @@ def plot_3d(x_coords, y_coords, synchronized_data, num_points):
         x=sync_x,
         y=sync_y,
         z=sync_thickness,
-        mode='markers',
+        mode='lines',
         marker=dict(color='red', size=5, symbol='circle'),
         name='Thickness Measurement'
     ))
@@ -112,7 +114,7 @@ def plot_time(csv_data, sampling_cycle, first_index, num_points):
     fig.add_trace(go.Scatter(
         x=times[indices],
         y=thicknesses[indices],
-        mode='lines+markers',
+        mode='lines',
         name='Thickness over Time'
     ))
 

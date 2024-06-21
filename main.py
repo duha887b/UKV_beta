@@ -129,7 +129,7 @@ class ModernApp:
             fig = plot_time(csv_data, sampling_cycle, first_index, num_points)
 
         if fig:
-            html = pio.to_html(fig, full_html=False)
+            html = pio.to_html(fig, full_html=True)
             with open("plot.html", "w", encoding="utf-8") as f:
                 f.write(html)
             if self.open_in_browser.get():

@@ -1,7 +1,7 @@
-# UKV - Universal Konvugal Visualizer
+# UKV - Universal Confocal Visualizer
 
 ## Overview
-The UKV (Universal Konvugal Visualizer) is a powerful analysis tool designed for precise visualization and data analysis. This project integrates G-Code parsing and CSV data processing to visualize and synchronize measurement data, 
+The UKV (Universal Confocal Visualizer) is a powerful analysis tool designed for precise visualization and data analysis. This project integrates G-Code parsing and CSV data processing to visualize and synchronize measurement data, 
 allowing users to accurately map and analyze measurements along a G-Code path. The application is built using Python, Tkinter for the graphical user interface (GUI), and Plotly for advanced plotting capabilities.
 
 ## Features

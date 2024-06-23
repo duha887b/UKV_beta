@@ -33,6 +33,6 @@ To set up the UKV, follow these steps:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or suggestions, please open an issue on GitHub or contact [your-email@example.com](client01.server@gmail.com).
+For any questions or suggestions, please open an issue on GitHub or contact [client01.server@gmail.com](client01.server@gmail.com).
 
 
